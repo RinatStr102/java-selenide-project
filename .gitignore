@@ -1,0 +1,17 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build и временные файлы
+build/
+out/
+
+# Allure Reports
+allure-results/
+allure-report/
+
+# Логи
+*.log
+
+# Системные файлы
+.DS_Store
