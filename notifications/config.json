@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "My Project",
+    "environment": "Local Environment",
+    "comment": "Autotests results",
+    "reportLink": "file:///Users/rinatvaliullin/IdeaProjects/java-selenide-project/build/allure-report/index.html",
+    "language": "en",
+    "allureFolder": "build/allure-report",
+    "enableChart": false,
+    "enableSuitesPublishing": false
+  },
+  "telegram": {
+    "token": "7591980377:AAFMJz3Pwz393dsq035hTuEYVRl6PuvH1-Q",
+    "chat": "635451220",
+    "templatePath": "/templates/telegram.ftl"
+  }
+}

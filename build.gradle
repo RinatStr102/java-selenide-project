@@ -34,5 +34,5 @@ test {
 // Задача для автоматического создания HTML-отчёта
 tasks.register('generateAllureReport', Exec) {
     dependsOn test
-    commandLine 'allure', 'generate', 'build/allure-results', '-o', 'build/allure-report'
+    commandLine 'allure', 'generate', 'build/allure-results', '-o', 'build/allure-report', '--clean'
 }
